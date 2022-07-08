@@ -1,0 +1,237 @@
+h1{
+    font-family: Segoe UI, Bold;
+    font-size: 26px;
+    color: #F2A516;
+}
+
+h2{
+    font-size: 7px;
+    font-family: Noto Sans, Bold;
+    color: #F2A516;
+}
+
+header{
+	position: relative;
+	width: 100%;
+}
+
+.header{
+	background-color: rgb(4, 24, 53);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+    border: 1px solid rgb(4, 24, 53);
+}
+
+.optionsBar{
+    background-color: rgb(4, 24, 53);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionsBar span {
+    color: #fff;
+    font-size: 11pt;
+    font-family: Noto Sans, Bold;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.optionsBar a {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: 30px;
+}
+
+nav a{
+	color: rgb(4, 24, 53);
+	display: block;
+	font-size: 10pt;
+	font-family: Noto Sans, Medium;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: background .5s;
+}
+
+nav ul{
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+nav ul > li a{
+	position: relative;
+}
+
+nav .principal > a {
+    background: url(../images/arrow_bottom.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-position: 94% center;
+    background-size: 10px;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav li ul{
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	align-items:flex-start;
+	border: 1px solid rgb(4, 24, 53);
+}
+
+nav li ul a{
+	position: relative;
+	padding: 10px 30px;
+	border-right: initial;
+}
+
+nav li ul a:hover {
+	background: #147556;
+}
+
+nav li ul li:last-child{
+	border-radius: 0 0 10px 10px;
+	overflow: hidden;
+}
+
+p{
+    font-size: 15px;
+    font-family: Noto Sans;
+    color: #F2A516;
+}
+.formularios{
+    max-width: 35em;
+    padding: 2em;
+    margin: 0 auto;
+    background: rgb(4, 24, 53);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
+}
+.titulo{
+    background: rgb(4, 24, 53); 
+}
+.card{
+    max-width: 35em;
+    padding: 2em;
+    margin: 4em;
+    background: rgb(4, 24, 53);
+    font-weight: bold;
+    border-radius: 0.5em;
+
+}
+.col{
+    max-width: 35em;
+    padding: 2em;
+    margin: 3em;
+    background: rgb(4, 24, 53);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
+}
+.pie-pagina{
+    width: 100%;
+    background: rgb(4, 24, 53);
+
+}
+
+.pie-pagina .grupo{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.pie-pagina .grupo .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #F2A516 ;
+    margin-right: 10px;
+    background-color: rgb(4, 24, 53);
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.combobox {
+    position:relative;
+    display: block;
+    left: 535px;
+    background-color: rgb(4, 24, 53);
+    color: #F2A516;
+    border: 1px solid black;
+    width: 400px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.combobox select{
+    height: 30px;
+    border-radius: 10px;
+    font-family: Noto Sans, Medium;
+}
+
+.table {
+	width: 5px;
+    padding: 15px;
+}
+
+.table thead{
+	background-color: rgb(4, 24, 53);
+    text-align: center;
+}
+
+.table table {
+	position: relative;
+	width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+	color:#F2A516;
+	top: 10px;
+	font-family: Noto Sans, Medium;
+    border: 1px solid rgb(4, 24, 53);
+}
+
+tbody td {
+	text-align: center;
+}
+
+@media screen and (max-width:800px){
+
+    .pie-pagina .grupo{
+    width: 90%;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+
+    }
+}
+
