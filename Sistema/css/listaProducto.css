@@ -1,0 +1,41 @@
+.AnadirButt {
+    display: -webkit-flex;
+	display: flex;
+	float: left;
+	border-radius: 10px;
+    margin: 15px;
+}
+
+.AnadirButt button {
+    background: rgb(4, 24, 53);
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor:pointer;
+	margin-left: 85px;
+}
+
+.btn_nuevo_producto {
+    display: -webkit-flex;
+	display: flex;
+	float: right;
+	background: rgb(4, 24, 53);
+	padding: 10px 20px;
+    margin: 8px;
+	border-radius: 10px;
+    color: #F2A516;
+    margin-right: 57px;
+}
+
+.btn_nuevo_producto input {
+    padding: 3px;
+    border-radius: 5px;
+    font-family: Noto Sans, Medium;
+}
+
+.btn_nuevo_producto button {
+	padding: 0 20px;
+	border-radius: 10px;
+	cursor:pointer;
+	margin-left: 10px;
+}
