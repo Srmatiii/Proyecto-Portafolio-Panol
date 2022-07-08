@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.TituloRegistro h1 {
+    color: #F2A516;
+    font-family: segoe UI, Bold;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, white 0%, white 50%, 
+    rgb(4, 24, 53) 50%, rgb(4, 24, 53) 100%);
+}
+
+.FormRegistro form table {
+    margin:70px 125px;
+    height: 700px;
+    width: 600px;
+    border: 5px solid #FBFBFB;
+}
+
+.FormRegistro input {
+    font-family: Noto Sans, Medium;
+    height: 20px;
+    width: 150px;
+}
+
+body td {
+    font-family: Calibri, Regular;
+}
+
+body tr td select option {
+    font-family: Noto Sans, Medium;
+}
+
+button {
+    position: relative;
+    left: 50px;
+    height: 20px;
+    width: 150px;   
+    font-family: Noto Sans, Medium;
+}
+
+/* index.php */
+.index {
+    margin:100px 150px;
+    height: 200px;
+    width: 600px;
+    border: 1px solid #BDBDBD;
+    background-color: #FBFBFB;
+}
+
+.TituloBienvenido h1 {
+    color: #F2A516;
+    font-family: segoe UI, Bold;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+.Butt button{
+    position:relative;
+    top: 225px;
+    left: 250px;
+    width: 200px; 
+    height: 50px;
+    font-family: Noto Sans, Medium;
+}
+
+/* iniciarsesion.php */
+
+.IniciarSesion {
+    background-color: #FBFBFB;
+    margin:350px 100px;
+    width: 500px;
+    padding: 10px;
+    height: 200px;
+    border: 1px solid #BDBDBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IniciarSesion h1{
+    color: #F2A516;
+    font-family: segoe UI, Bold;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.IniciarSesion input {
+    display: block;
+    font-size: 16pt;
+    width: 100%;
+    padding: 5px;  
+    font-family: Noto Sans, Medium;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+}
+
+.IniciarSesion input[type="submit"]{
+    padding: 10px;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+
